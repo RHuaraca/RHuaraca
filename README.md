@@ -1,5 +1,5 @@
-![foto de perfil](https://jardinesdeojos.es/wp-content/uploads/2014/07/text-bienvenido.png)
-
+![portada](https://jardinesdeojos.es/wp-content/uploads/2014/07/text-bienvenido.png)
+<img src="https://jardinesdeojos.es/wp-content/uploads/2014/07/text-bienvenido.png" width="50" height="50">
 ---
 ## __¡Hola!__ Mi nombre es René Huaraca y soy un desarrollador _Full Stack_.
 ---
@@ -29,4 +29,3 @@ Me gusta mucho la tecnología y me he esforzado por conocer de ella a pesar de s
 <img src="https://user-images.githubusercontent.com/102181381/185231737-1ba31713-13f0-48a3-b352-5c2bef06285c.svg" width="50" height="50">
 <img src="https://user-images.githubusercontent.com/102181381/185236647-b3712d46-4a0b-4cf8-b761-d53ca8c26fe2.svg" width="50" height="50">
 <img src="https://user-images.githubusercontent.com/102181381/185237377-f550d006-af86-44c7-a3ac-5fdeafd61e90.svg" width="50" height="50">
-<img src="https://github.githubassets.com/favicons/favicon-dark.svg" width="50" height="50">

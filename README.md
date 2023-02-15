@@ -21,7 +21,7 @@ Me gusta mucho la tecnología y me he esforzado por conocer de ella a pesar de s
 
 #### Visita mi perfil de linkedin
  <https://www.linkedin.com/in/ren%C3%A9-huaraca-ccancce-38275b105/>
-#### Agenda una reunión
+#### Agenda una reunión conmigo
 <https://calendly.com/renepersonal931/45min/>
 
 ---

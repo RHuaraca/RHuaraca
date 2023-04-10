@@ -1,0 +1,90 @@
+.skills_container{
+  min-height: 100vh;
+  background-image: url('../../assets/fondoClaro.jpeg');
+  background-color: rgba(43, 43, 43, 0.8);
+  background-blend-mode: multiply;
+  transition: background-color 1s;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 15vh;
+  .skills_section{
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  h5{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: $color_contraste_claro;
+    transition: color 1s;
+    font-size: 3vh;
+  }
+  footer{
+    background-color:$color_secundario_medio;
+    transition: background-color 1s;
+    width: 100%;
+    margin-top: 5vh;
+    color: beige;
+    transition: color 1s;
+    text-align: center;
+    p{
+      margin: 7px;
+      a{
+        color:rgb(73, 159, 221);
+      }
+    }
+  }
+}
+.skills_container_ligthMode{
+  min-height: 100vh;
+  background-image: url('../../assets/fondoClaro.jpeg');
+  background-color: rgba(242, 184, 75, 0.4);
+  background-blend-mode: multiply;
+  transition: background-color 1s;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 15vh;
+  .skills_section{
+    padding: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  h5{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: $colorc_primario_oscuro;
+    transition: color 1s;
+    font-size: 3vh;
+  }
+  footer{
+    background-color:$colorc_secundario_medio;
+    transition: background-color 1s;
+    width: 100%;
+    margin-top: 5vh;
+    color: $colorc_primario_oscuro;
+    transition: color 1s;
+    text-align: center;
+    p{
+      margin: 7px;
+      a{
+        color:rgb(73, 159, 221);
+      }
+    }
+  }
+}
+
+

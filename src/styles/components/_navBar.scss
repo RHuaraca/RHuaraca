@@ -1,0 +1,228 @@
+.navbar_container{
+    margin: 0px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: $color_secundario_medio;
+    transition: background-color 1s;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    .active{
+        text-decoration:underline;
+    }
+    .menuImgInicio{
+        display: none;
+    }
+    .menuImgOthers{
+        display: none;
+    }
+    .perfilInicio{
+        height: $tamanio_inicio;
+        width: $tamanio_inicio;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .perfilAbout{
+        display: none;
+    }
+    .perfilOthers{
+        height: $tamanio_otros;
+        width: $tamanio_otros;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    ul{
+        margin:0px;
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+        li{
+            a{
+                color: $color_contraste_claro;
+                transition: color 1s;
+                text-decoration: none;
+                display: block;
+                height: 3vh;
+                padding: 0.5vh;
+            }
+            :hover{
+                background-color: $color_terciario_claro;
+            }
+        }
+    }
+    @media screen and (max-width:800px) {
+        ul{
+            width: 75%;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    @media screen and (max-width:600px){
+        .perfilInicio{
+            height: $tamanio_otros;
+            width: $tamanio_otros;
+        }
+        .menuImgInicio{
+            height: $tamanio_menuotros;
+            width: $tamanio_menuotros;
+        }
+        display: flex;
+        flex-direction: column;
+        .navbar_imageContainer{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menuImgInicio{
+            width: $tamanio_menuinicio;
+            display: block;
+            cursor: pointer;
+        }
+        .menuImgOthers{
+            width: $tamanio_menuotros;
+            display: block;
+            cursor: pointer;
+        }
+
+        .ocultar{
+            display: none;
+        }
+        .mostrar{
+            flex-direction: column;
+            width: 100%;
+            gap: 0;
+            li{
+                width: 100%;
+                border-top: solid;
+                border-color: $color_primario_oscuro;
+                border-width: 1px;
+                text-align:end;
+                padding-right: 3em;
+                .enlace{
+                    display: block;
+                    width: 100%;
+                    padding: 1em;
+                }
+            }
+        }
+    }
+    
+}
+//modo claro
+.navbar_container_lightMode{
+    margin: 0px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: $colorc_secundario_medio;
+    transition: background-color 1s;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    .active{
+        text-decoration:underline;
+    }
+    .menuImgInicio{
+        display: none;
+    }
+    .menuImgOthers{
+        display: none;
+    }
+    .perfilInicio{
+        height: $tamanio_inicio;
+        width: $tamanio_inicio;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .perfilAbout{
+        display: none;
+    }
+    .perfilOthers{
+        height: $tamanio_otros;
+        width: $tamanio_otros;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    ul{
+        margin:0px;
+        list-style: none;
+        display: flex;
+        padding-left: 0;
+        li{
+            a{
+                color: $colorc_primario_oscuro;
+                transition: color 1s;
+                text-decoration: none;
+                display: block;
+                height: 3vh;
+                padding: 0.5vh;
+            }
+            :hover{
+                background-color: $colorc_contraste_claro;
+            }
+        }
+    }
+    @media screen and (max-width:800px) {
+        ul{
+            width: 75%;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    @media screen and (max-width:600px){
+        .perfilInicio{
+            height: $tamanio_otros;
+            width: $tamanio_otros;
+        }
+        .menuImgInicio{
+            height: $tamanio_menuotros;
+            width: $tamanio_menuotros;
+        }
+        display: flex;
+        flex-direction: column;
+        .navbar_imageContainer{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menuImgInicio{
+            width: $tamanio_menuinicio;
+            display: block;
+            cursor: pointer;
+        }
+        .menuImgOthers{
+            width: $tamanio_menuotros;
+            display: block;
+            cursor: pointer;
+        }
+
+        .ocultar{
+            display: none;
+        }
+        .mostrar{
+            flex-direction: column;
+            width: 100%;
+            gap: 0;
+            opacity: 1;
+            transition: opacity 1s ease-in-out;
+            li{
+                width: 100%;
+                border-top: solid;
+                border-color: $color_primario_oscuro;
+                border-width: 1px;
+                text-align:end;
+                padding-right: 3em;
+                .enlace{
+                    display: block;
+                    width: 100%;
+                    padding: 1em;
+                }
+            }
+        }
+    }
+}

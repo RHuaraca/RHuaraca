@@ -1,0 +1,10 @@
+@mixin phone{
+    @media screen and (max-width:600px) {
+        color: $color_contraste_claro
+    }
+}
+@mixin tablet{
+    @media screen and (max-width:800px) {
+        color: $color_contraste_claro;
+    }
+}

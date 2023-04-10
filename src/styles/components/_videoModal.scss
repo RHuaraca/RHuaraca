@@ -1,0 +1,17 @@
+.modal-content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 25vh;
+  iframe{
+    width: 90vh;
+    height: 50vh;
+  }
+  @media screen and (max-width:600px){
+    iframe{
+    width: 50vh;
+    height: 30vh;
+  }
+  }
+}
+

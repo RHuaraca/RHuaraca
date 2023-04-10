@@ -1,0 +1,153 @@
+.portafolio_container{
+  background-color: $color_terciario_claro  ;
+  transition: background-color 1s;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h5{
+    margin-top: 12vh;
+    margin-bottom: 1em;
+    font-size:2em;
+  }
+  .portafolio_proyectos_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .controles{
+      width: 50px;
+      height: 50px;
+      opacity: 20%;
+      cursor: pointer;
+    }
+    .controles:hover{
+      opacity: 100%;
+    }
+
+    .fade-enter {
+      opacity: 0;
+      position: absolute;
+    }
+    .fade-enter-active {
+      opacity: 1;
+      transition: opacity 500ms ease-in-out;
+    }
+    .fade-exit {
+      opacity: 1;
+    }
+    .fade-exit-active {
+      opacity: 0;
+      transition: opacity 500ms ease-in-out;
+    }
+  }
+  .portafolio_puntos_container{
+    display: flex;
+    gap: 1em;
+    p{
+      cursor: pointer;
+      margin: 0;
+      font-size: 3em;
+      opacity: 20%;
+    }
+    .active{
+      opacity: 100%;
+    }
+  }
+  @media screen and (max-width:600px){
+    justify-content:flex-start;
+    overflow-y:scroll;
+    h5{
+      margin-top: 20vh;
+      font-size:1.5em;
+      margin-bottom: 0.8em;
+    }
+    .portafolio_proyectos_container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .controles{
+        width: 5vh;
+        height: 5vh;
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.portafolio_container_lightMode{
+  background-color: $colorc_terciario_claro  ;
+  transition: background-color 1s;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  h5{
+    margin-top: 12vh;
+    margin-bottom: 1em;
+    font-size:2em;
+  }
+  .portafolio_proyectos_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .controles{
+      width: 50px;
+      height: 50px;
+      opacity: 20%;
+      cursor: pointer;
+    }
+    .controles:hover{
+      opacity: 100%;
+    }
+
+    .fade-enter {
+      opacity: 0;
+      position: absolute;
+    }
+    .fade-enter-active {
+      opacity: 1;
+      transition: opacity 500ms ease-in-out;
+    }
+    .fade-exit {
+      opacity: 1;
+    }
+    .fade-exit-active {
+      opacity: 0;
+      transition: opacity 500ms ease-in-out;
+    }
+  }
+  .portafolio_puntos_container{
+    display: flex;
+    gap: 1em;
+    p{
+      cursor: pointer;
+      margin: 0;
+      font-size: 3em;
+      opacity: 20%;
+    }
+    .active{
+      opacity: 100%;
+    }
+  }
+  @media screen and (max-width:600px){
+    justify-content:flex-start;
+    overflow-y:scroll;
+    h5{
+      margin-top: 20vh;
+      font-size:1.5em;
+      margin-bottom: 0.8em;
+    }
+    .portafolio_proyectos_container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .controles{
+        width: 5vh;
+        height: 5vh;
+        opacity: 1;
+      }
+    }
+  }
+}

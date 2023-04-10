@@ -1,0 +1,29 @@
+.switchIngles_container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 67px;
+    height: 34PX;
+    border-radius: 16px;
+    background-color: $color_terciario_claro;
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: -2.5em;
+    right: 0.5em;
+    div{
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        cursor: pointer;
+        img{
+            height: 30px;
+        }
+        .opacar{
+            opacity: 25%;
+        }  
+    }
+    
+}

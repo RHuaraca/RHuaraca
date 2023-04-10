@@ -1,0 +1,37 @@
+.iconoGithub_container{
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  justify-content: center;
+  width: 45px;
+  position: fixed;
+  bottom: 4vh;
+  right: 2vw;
+  img{
+    height: 7vh;
+    width: 7vh;
+    cursor: pointer;
+    transition: transform 0.08s ease-in-out;
+  }
+  :hover{
+    transform: scale(1.1);
+  }
+  @media screen and (max-width:800px) {
+    img{
+      height: 7vh;
+      width: 7vh;
+    }
+    :hover{
+      transform: scale(1.0);
+    }
+  }
+  @media screen and (max-width:600px){
+    img{
+      height: 5vh;
+      width: 5vh;
+    }
+    :hover{
+    transform: scale(1.0);
+  }
+  }
+}

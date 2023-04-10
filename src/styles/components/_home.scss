@@ -1,0 +1,112 @@
+.home_container{
+  height: 100vh;
+  background-image: url('../../assets/fondoClaro.jpeg');
+  background-color: rgba(43, 43, 43, 0.8);
+  background-blend-mode: multiply;
+  transition: background-color 1s;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4.4em;
+    color: $color_contraste_claro;
+    transition: color 1s;
+    -webkit-text-stroke: 1px $color_secundario_medio;
+  }
+  h2{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    color: $color_contraste_oscuro;
+    transition: color 1s;
+    -webkit-text-stroke: 0.5px $color_terciario_claro;
+  }
+  @media screen and (max-width:600px){
+    h1{
+      width: 80%;
+      text-align: center;
+      font-size: 2.5em;
+      color: $color_contraste_claro;
+      -webkit-text-stroke: 1px $color_secundario_medio;
+    }
+      h2{
+        width: 80%;
+        text-align: center;
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5em;
+        padding-bottom: 15vh;
+        color: $color_contraste_oscuro;
+        -webkit-text-stroke: 0.5px $color_terciario_claro;
+    }
+  }
+}
+
+.home_container_ligthMode{
+  height: 100vh;
+  background-image: url('../../assets/fondoClaro.jpeg');
+  background-color: rgba(242, 184, 75, 0.4);
+  background-blend-mode: multiply;
+  transition: background-color 1s;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h1{
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    font-size: 4.4em;
+    color: $colorc_primario_oscuro;
+    transition: color 1s;
+    -webkit-text-stroke: 1px $colorc_secundario_medio;
+  }
+  h2{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    color: $colorc_contraste_oscuro;
+    transition: color 1s;
+    -webkit-text-stroke: 0.5px $color_terciario_claro;
+  }
+  @media screen and (max-width:800px) {
+    h1{
+      padding: 0;
+      justify-content: center;
+      font-size: 3em;
+    }
+    h2{
+      font-size: 2.3em;
+      padding-bottom: 15vh;
+    }
+  }
+  @media screen and (max-width:600px){
+    align-items: center;
+    h1{
+      text-align: center;
+      width: 80%;
+      font-size: 2.5rem;
+      color: $colorc_primario_oscuro;
+      -webkit-text-stroke: 1px $color_secundario_medio;
+    }
+      h2{
+        text-align: center;
+        padding-bottom: 15vh;
+        width: 80%;
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.5em;
+        color: $colorc_contraste_oscuro;
+        -webkit-text-stroke: 0.5px $color_terciario_claro;
+    }
+  }
+}
